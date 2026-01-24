@@ -26,7 +26,3 @@ This provides a fully reproducible computational validation of the theoretical f
 
 - Python **3.8+**
 - No external dependencies (only standard library modules: `math`, `functools`)
-
----
-cd coprime_count
-
