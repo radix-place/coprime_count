@@ -28,12 +28,5 @@ This provides a fully reproducible computational validation of the theoretical f
 - No external dependencies (only standard library modules: `math`, `functools`)
 
 ---
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/radix-place/coprime_count.git
 cd coprime_count
 
