@@ -7,22 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1T5EszXVhskjFdAQh_uNUlU1efTEycx_-
 """
 
-# -*- coding: utf-8 -*-
-"""
-coprime_count.py
-
-Referencia: fórmulas funcionales para g(2n,p) (p primo >= 5).
-Este módulo implementa:
-- Q(n,p)  para δ_3(n) ∈ {1,2}
-- Q0(n,p) para δ_3(n) = 0
-- Q_total(n,p) = g(2n,p) con n = (2n)/2
-
-Dependencias: solo biblioteca estándar (math, functools).
-"""
-
 import math
 from functools import lru_cache
-
 
 # ---------------------------------------------------------------------
 # Validaciones básicas
