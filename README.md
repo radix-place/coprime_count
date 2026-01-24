@@ -7,15 +7,7 @@ This repository provides a reference Python implementation of the explicit funct
 > *Explicit Functional Formulas for Restricted Coprime Representations of Even Integers*  
 > Andrés M. Salazar
 
-The code implements the closed functional expressions for the counting function
-
-\[
-g(2n,p)
-=
-\#\{(h,k)\in\mathbb{N}^2 : h+k=2n,\; \gcd(h,6p)=\gcd(k,6p)=1\},
-\]
-
-and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
+The code implements the closed functional expressions for the counting function $g(2n, p)$ (see Theorem 4.13) and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
 
 ---
 
