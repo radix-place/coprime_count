@@ -7,18 +7,18 @@ This repository provides a reference Python implementation of the explicit funct
 > *Explicit Functional Formulas for Restricted Coprime Representations of Even Integers*  
 > Andrés M. Salazar
 
-The code implements the closed functional expressions for the counting function $g(2n, p)$ (see Theorem 4.13) and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
+The code implements the closed functional expressions for the counting function \( g(2n,p) \) (see Theorem 4.13 in the paper) and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
 
 ---
 
 ## Purpose
 
-The script serves two main purposes:
+This script serves two main purposes:
 
 1. **Exact evaluation of the functional counting formulas** derived in the paper.
 2. **Independent verification of correctness**, by comparing the functional result with a direct computational count.
 
-This provides a fully reproducible computational validation of the theoretical framework.
+Together, these provide a fully reproducible computational validation of the theoretical framework.
 
 ---
 
