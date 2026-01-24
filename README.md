@@ -7,13 +7,6 @@ This repository provides a reference Python implementation of the explicit funct
 > *Explicit Functional Formulas for Restricted Coprime Representations of Even Integers*  
 > Andrés M. Salazar
 
-The code implements the functional framework introduced in the article, including:
-- the canonical remainder operator,
-- the functional Euclidean algorithm,
-- the explicit minimal solutions of functional equations,
-- and the closed-form counting formulas for coprime representations of even integers.
-
-
 ## Requirements
 
 - Python **3.8+**
