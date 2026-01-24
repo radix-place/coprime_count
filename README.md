@@ -7,6 +7,29 @@ This repository provides a reference Python implementation of the explicit funct
 > *Explicit Functional Formulas for Restricted Coprime Representations of Even Integers*  
 > Andrés M. Salazar
 
+The code implements the closed functional expressions for the counting function
+
+\[
+g(2n,p)
+=
+\#\{(h,k)\in\mathbb{N}^2 : h+k=2n,\; \gcd(h,6p)=\gcd(k,6p)=1\},
+\]
+
+and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
+
+---
+
+## Purpose
+
+The script serves two main purposes:
+
+1. **Exact evaluation of the functional counting formulas** derived in the paper.
+2. **Independent verification of correctness**, by comparing the functional result with a direct computational count.
+
+This provides a fully reproducible computational validation of the theoretical framework.
+
+---
+
 ## Requirements
 
 - Python **3.8+**
@@ -14,9 +37,11 @@ This repository provides a reference Python implementation of the explicit funct
 
 ---
 
-## Basic usage
+## Installation
 
-### Direct execution
+Clone the repository:
 
 ```bash
-python coprime_count.py
+git clone https://github.com/radix-place/coprime_count.git
+cd coprime_count
+
