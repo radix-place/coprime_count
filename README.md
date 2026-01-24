@@ -13,21 +13,6 @@ The code implements the functional framework introduced in the article, includin
 - the explicit minimal solutions of functional equations,
 - and the closed-form counting formulas for coprime representations of even integers.
 
-The implementation is designed for clarity, mathematical transparency, and direct verification of the theoretical results.
-
----
-
-## Mathematical background
-
-For a fixed prime $p \geq 5$, the script evaluates the exact number of pairs
-$$
-(h,k) \in \mathbb{Z}_{>0}^2, \qquad h + k = 2n, \qquad \gcd(h,6p)=\gcd(k,6p)=1,
-$$
-using the explicit functional formulas derived in the paper.
-
-The theoretical value is compared, if desired, with a direct computational enumeration, providing a complete validation of the formulas.
-
----
 
 ## Requirements
 
