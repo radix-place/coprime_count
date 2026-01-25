@@ -29,7 +29,7 @@ The code provides:
   *(Run this script first to create `sieve.npy`, which is required by the other scripts.)*
 
 - `test_count.py`  
-  Exhaustive pointwise comparison between the closed formula and the brute-force oracle.
+  Exhaustive pointwise verification of the closed formula against a direct brute-force oracle for all even integers up to a prescribed bound.
 
 - `graph.py`  
   Script to generate coprime decomposition diagrams.
