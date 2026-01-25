@@ -1,28 +1,43 @@
-# coprime_count.py
+# Coprime decomposition counts and diagrams
 
-**Exact functional formulas for restricted coprime representations of even integers**
+This repository contains the reference implementation accompanying the article:
 
-This repository provides a reference Python implementation of the explicit functional formulas developed in the paper
+> *A Functional Framework for Exact Counting of Restricted Coprime Representations of Even Integers*  
+> Andrés M. Salazar  
+> Pontificia Universidad Javeriana Cali — Colombia  
+> (preprint, arXiv)
 
-> *Explicit Functional Formulas for Restricted Coprime Representations of Even Integers*  
-> Andrés M. Salazar
+The code provides:
 
-The code implements the closed functional expressions for the counting function $g(2n,p)$ (see Theorem 4.13 in the paper) and includes a built-in computational verifier that directly compares the theoretical values against brute-force enumeration.
+- An explicit closed formula for the function $g(2n,p)$ (see Theorem 4.13 in the paper),
+- A brute-force oracle for direct verification,
+- Systematic computational validation,
+- Visualization scripts for generating coprime decomposition diagrams.
 
 ---
 
-## Purpose
+## Contents
 
-This script serves two main purposes:
+- `coprime_count.py`  
+  Core implementation of the closed formula for `g(2n,p)`, together with a strict brute-force oracle and pointwise verification routines.
 
-1. **Exact evaluation of the functional counting formulas** derived in the paper.
-2. **Independent verification of correctness**, by comparing the functional result with a direct computational count.
+- `prime_test.py`  
+  Efficient primality testing based on a precomputed sieve and memory-mapped access.
 
-Together, these provide a fully reproducible computational validation of the theoretical framework.
+- `sieve_creator.py`  
+  Script to generate the prime sieve file `sieve.npy`.  
+  *(Run this script first to create `sieve.npy`, which is required by the other scripts.)*
+
+- `test_count.py`  
+  Exhaustive pointwise comparison between the closed formula and the brute-force oracle.
+
+- `graph.py`  
+  Script to generate coprime decomposition diagrams.
 
 ---
 
 ## Requirements
 
-- Python **3.8+**
-- No external dependencies (only standard library modules: `math`, `functools`)
+- Python ≥ 3.9  
+- NumPy  
+- Matplotlib  
