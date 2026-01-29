@@ -2,7 +2,7 @@ from coprime_count import g, count_bruteforce
 
 # WARNING: brute force on large 2n can be extremely slow.
 n_test = 10000
-prime = 101
+prime = 31
 
 # Force n_test to be even for semantic consistency
 n_test = (n_test // 2) * 2
