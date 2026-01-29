@@ -2,10 +2,9 @@
 
 This repository contains the reference implementation accompanying the article:
 
-> *A Functional Framework for Exact Counting of Restricted Coprime Representations of Even Integers*  
+> *Exact Counting of Restricted Coprime Representations of Even Integers via Functional Residue Calculus*  
 > Andrés M. Salazar  
 > Pontificia Universidad Javeriana Cali — Colombia  
-> (preprint, arXiv)
 
 The code provides:
 
