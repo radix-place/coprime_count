@@ -52,7 +52,23 @@ def H(x):
 
 
 def D(x):
-    """Indicator function: D(x) = 0 if x = 0, else 1."""
+    """
+    Complementary indicator function:
+    
+        D(x) = 1 - 𝟙(x),
+    
+    where 𝟙(x) is the indicator of x = 0 used in the paper:
+    
+        𝟙(x) = 1 if x = 0, else 0.
+    
+    Thus:
+    
+        D(x) = 0 if x = 0,
+        D(x) = 1 if x ≠ 0.
+    
+    This algebraically equivalent form is used to simplify expressions
+    while preserving exact counting results.
+    """
     return 0 if x == 0 else 1
 
 
