@@ -296,7 +296,7 @@ def g(entrada_2n, p):
 
 
 # ---------------------------------------------------------------------
-# Brute-force oracle (Section 5.1)
+# Brute-force oracle (Section 5)
 # ---------------------------------------------------------------------
 
 def _count_bruteforce_core(entrada_2n, p):
@@ -382,7 +382,7 @@ def check_theorem(entrada_2n, p=5, *, verbose=True):
 
 
 # ---------------------------------------------------------------------
-# NEW: Benchmark and timing comparison (Section 5.3)
+# NEW: Benchmark and timing comparison (Section 5)
 # ---------------------------------------------------------------------
 
 def benchmark_single(entrada_2n, p, method='functional', warmup=3, runs=100):
